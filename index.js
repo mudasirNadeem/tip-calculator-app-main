@@ -25,7 +25,7 @@ function billPercantage(index){
         totalAmount.innerText = parseFloat(billAmount.value) + buttonStrToNumber;
     }
     else{
-        alert('you data is wrong')
+        alert('bill field is required greate than 100 and other field is required greate than 0')
     }
 }
 
@@ -42,7 +42,7 @@ function customPercantage(){
         totalAmount.innerText = parseFloat(billAmount.value) + parseFloat(customPercantageId.value);
     }
     else{
-        alert('Both field is Required')
+        alert('Both field is Required');
         customPercantageId.value = '';
     }
 }
