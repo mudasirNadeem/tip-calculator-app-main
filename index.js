@@ -26,7 +26,7 @@ function billPercantage(index){
     }
     else{
         alert('bill field is required greate than 100 and other field is required greate than 0 thank you')
-    }
+    }  
 }
 
 function resetAmount(){
