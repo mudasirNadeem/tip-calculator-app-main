@@ -25,7 +25,7 @@ function billPercantage(index){
         totalAmount.innerText = parseFloat(billAmount.value) + buttonStrToNumber;
     }
     else{
-        alert('bill field is required greate than 100 and other field is required greate than 0')
+        alert('bill field is required greate than 100 and other field is required greate than 0 thank you')
     }
 }
 
@@ -40,7 +40,7 @@ function customPercantage(){
         var percantage = percentageFormula / laberCount;
         amountPercantage.innerText = "$" + percantage.toFixed(2);
         totalAmount.innerText = parseFloat(billAmount.value) + parseFloat(customPercantageId.value);
-    }
+    }  
     else{
         alert('Both field is Required');
         customPercantageId.value = '';
