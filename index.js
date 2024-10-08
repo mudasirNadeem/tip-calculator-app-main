@@ -25,7 +25,7 @@ function billPercantage(index){
         totalAmount.innerText = parseFloat(billAmount.value) + buttonStrToNumber;
     }
     else{
-        alert('bill field is required greate than 100 and other field is required greate than 0 thank you')
+        alert('bill field is required greate than 100 and other field is required greater than 0 thank you')
     }  
 }
 
